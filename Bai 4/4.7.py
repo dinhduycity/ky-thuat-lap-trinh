@@ -1,0 +1,5 @@
+print("le dinh duy")
+print("235752021610087")
+input_string = input("Nhập chuỗi: ")
+new_string = ''.join([char for char in input_string if not char.isdigit()])
+print("Chuỗi mới:", new_string)
